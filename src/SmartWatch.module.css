@@ -1,0 +1,176 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+}
+.watchImgWrap {
+    height: 500px;
+    width: 40%;
+    position: relative;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.watch {
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: -43px;
+    left: -60px;
+}
+.prductNameWrap {
+    margin-top: 50px;
+    padding: 40px;
+    width: 60%;
+    height: 500px;
+    margin-right: 80px;
+}
+.colorWrap {
+    background-color: white;
+    height: 40px;
+    width: 270px;
+    overflow: hidden;
+    margin-top: -5px;
+    display: flex;
+}
+
+.redband {
+    height: 40px;
+    width: 60px;
+    overflow: hidden;
+    background-color: #ca3d22;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.blueband {
+    height: 40px;
+    width: 60px;
+    overflow: hidden;
+    background-color: #565681;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.blackband {
+    height: 40px;
+    width: 60px;
+    overflow: hidden;
+    background-color: #23211f;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.purpleband {
+    height: 40px;
+    width: 60px;
+    overflow: hidden;
+    background-color: #8a5362;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.watchFeatures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+}
+.timeBtn {
+    background-color: pink;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.heartBtn {
+    background-color:pink;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.buyBtn {
+    padding: 20px;
+    width: 190px;
+    background-color: grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .btn:hover {
+    transform: scale(1.1, 1.1);
+} */
+.timeWrap {
+    width: 215px;
+    height: 229px;
+    background-color: white;
+    z-Index: 200;
+    position: absolute;
+    left: 127px;
+    overflow: hidden;
+    top: 325px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.timeTxt {
+    text-align: center;
+    margin: 0 auto;
+}
+/* .clock {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+    color: blue;
+    position: absolute;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+} */
+.heart {
+    background-color: blue;
+    width: 215px;
+    height: 229px;
+    background-color: white; 
+    z-Index: 200;
+    position: absolute;
+    left: 127px;
+    overflow: hidden;
+    top: 325px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* display: none; */
+}
+.beats{
+    color :black;
+    margin: 0;
+    font-size: 40px;
+    margin-left: 85px;
+}
+.icon {
+    font-size: 70px;
+	color: red;
+	margin-left: 71px;
+    margin-top: 30px;
+	animation: pulse .2s infinite;
+}
+.heartBeatIcon {
+    width: 80px;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1, 1);
+	}
+	
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+	
+	100% {
+		transform: scale(1, 1);
+	}
+}
