@@ -12,7 +12,7 @@ return(
     <TopBar />
     <SmartWatch/>
   </div>
-   )
+   );
   }
 }
 export default App;

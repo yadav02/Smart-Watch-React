@@ -3,7 +3,7 @@
     align-items: center;
 }
 .watchImgWrap {
-    height: 500px;
+    height: 450px;
     width: 40%;
     position: relative;
     margin-top: 50px;
@@ -17,14 +17,30 @@
     left: -60px;
 }
 .prductNameWrap {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 120%;
+    word-spacing: -10px;
     margin-top: 50px;
     padding: 40px;
     width: 60%;
     height: 500px;
     margin-right: 80px;
 }
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: gray;
+}
+h4{
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: -2px;
+    font-size: 23px;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 23px;
+}
 .colorWrap {
-    background-color: white;
+    /* background-color: white; */
     height: 40px;
     width: 270px;
     overflow: hidden;
@@ -74,35 +90,43 @@
     width: 190px;
 }
 .timeBtn {
-    background-color: pink;
-    padding: 8px 20px;
-    border-radius: 8px;
-    cursor: pointer;
     border: none;
-    outline: none;
+    background: rgb(225, 231, 238);
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .heartBtn {
-    background-color:pink;
-    padding: 8px 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-.buyBtn {
-    padding: 20px;
-    width: 190px;
-    background-color: grey;
+    background: rgb(225, 231, 238);
+    margin-left: 15px;
+    padding: 8px 35px;
+    border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+    border: none;
+    font-family: 'Merriweather Sans', sans-serif;
 }
-/* .btn:hover {
-    transform: scale(1.1, 1.1);
-} */
+.buyBtn {
+    border: none;
+    background: #E58300  ;
+    padding: 15px 50px;
+    font-size: 15px;
+    width: 145px;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    top: 80px;
+    right: 270px;
+    border-radius: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    word-spacing: -15px;
+    cursor: pointer; 
+}
 .timeWrap {
     width: 215px;
     height: 229px;
-    background-color: white;
     z-Index: 200;
     position: absolute;
     left: 127px;
@@ -116,25 +140,14 @@
 .timeTxt {
     text-align: center;
     margin: 0 auto;
+    color: white;
+    position: relative;
+    bottom: 70px;
 }
-/* .clock {
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    overflow: hidden;
-    color: blue;
-    position: absolute;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 800;
-} */
+
 .heart {
-    background-color: blue;
     width: 215px;
     height: 229px;
-    background-color: white; 
     z-Index: 200;
     position: absolute;
     left: 127px;
@@ -142,19 +155,21 @@
     top: 325px;
     border-radius: 20px;
     box-sizing: border-box;
-    /* display: none; */
 }
 .beats{
-    color :black;
+    
+    position: relative;
     margin: 0;
     font-size: 40px;
     margin-left: 85px;
+    top: 90px;
 }
 .icon {
+    position: absolute;
     font-size: 70px;
 	color: red;
-	margin-left: 71px;
-    margin-top: 30px;
+    margin-left: 71px;
+    bottom: 130px;
 	animation: pulse .2s infinite;
 }
 .heartBeatIcon {
