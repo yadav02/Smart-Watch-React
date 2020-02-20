@@ -7,7 +7,7 @@
     width: 40%;
     position: relative;
     margin-top: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .watch {
     height: 600px;
@@ -87,7 +87,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 190px;
+    width: 500px;
 }
 .timeBtn {
     border: none;
@@ -113,16 +113,14 @@ h2{
     background: #E58300  ;
     padding: 15px 50px;
     font-size: 15px;
-    width: 145px;
     cursor: pointer;
     margin: 10px;
     position: relative;
     top: 80px;
-    right: 270px;
+    right: 328px;
     border-radius: 5px;
     font-family: 'Merriweather Sans', sans-serif;
-    word-spacing: -15px;
-    cursor: pointer; 
+    cursor: pointer;
 }
 .timeWrap {
     width: 215px;
@@ -131,30 +129,32 @@ h2{
     position: absolute;
     left: 127px;
     overflow: hidden;
-    top: 325px;
+    top: 240px;
     border-radius: 20px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    background-color: black;
 }
 .timeTxt {
     text-align: center;
     margin: 0 auto;
     color: white;
     position: relative;
-    bottom: 70px;
+    bottom: -7px;
 }
 
 .heart {
     width: 215px;
     height: 229px;
-    z-Index: 200;
+    z-Index: 0;
     position: absolute;
     left: 127px;
     overflow: hidden;
-    top: 325px;
+    top: 240px;
     border-radius: 20px;
     box-sizing: border-box;
+    background-color: black;
 }
 .beats{
     
@@ -162,14 +162,14 @@ h2{
     margin: 0;
     font-size: 40px;
     margin-left: 85px;
-    top: 90px;
+    top: 147px;
 }
 .icon {
     position: absolute;
     font-size: 70px;
 	color: red;
     margin-left: 71px;
-    bottom: 130px;
+    bottom: 85px;
 	animation: pulse .2s infinite;
 }
 .heartBeatIcon {

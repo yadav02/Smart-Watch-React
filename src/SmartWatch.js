@@ -88,8 +88,8 @@ class SmartWatch extends Component {
                 <h2>Features</h2> 
                 <div className ={classes.watchFeatures}>
                     <button onClick={this.onClickedTime} className = {classes.timeBtn}>Time</button>
-                    <button onClick={this.onHeartRateClicked} className = {classes.heartBtn}>HertRate</button>
-                    <button className = {classes.buyBtn}>BuyNow</button>
+                    <button onClick={this.onHeartRateClicked} className = {classes.heartBtn}>Heart Rate</button>
+                    <button className = {classes.buyBtn}>Buy Now</button>
                 </div>  
                 <div style = {{zIndex:this.state.Time}} className = { classes.timeWrap }>
                    <h1 className = {classes.timeTxt}>{ this.state.time}</h1>
