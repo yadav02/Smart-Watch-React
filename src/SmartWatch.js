@@ -75,7 +75,7 @@ class SmartWatch extends Component {
         </div>
             <div className = {classes.prductNameWrap}>
               <div className = {classes.details}>
-              <h1>FitBit 18 - The Smart Watch</h1>
+              <h1>FitBit 19 - The Smartest Watch</h1>
               <p>GPS + Cellular, Always-On Retina display, 30% larger screen4, 
                Swimproof, ECG app, Electrical and optical heart sensors.</p> 
               <h4>Select Color</h4>
